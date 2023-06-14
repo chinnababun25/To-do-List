@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#todo-container h1 {
+    text-align: center;
+}
+
+#todo-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.todo-item .delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
